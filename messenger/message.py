@@ -1,11 +1,11 @@
 from selenium import webdriver
 from time import sleep
 
-USERNAME = "" # your Facebook username
+USERNAME = "snzahedian@gmail.com" # your Facebook username
 PASSWORD = "" # your Facebook password
 MESSAGE = "" # message to send 
-RECIPIENTS = [""] # list of strings of message recipients
-PATH = '' # path to ChromeDriver executable
+RECIPIENTS = ["Saam Zahedian"] # list of strings of message recipients
+PATH = '/Users/SaamZahedian/Documents/Academic_Fun/fun_useful/messenger/chromedriver' # path to ChromeDriver executable
 
 
 def merge_message(user_name, pass_word, message, recipients, path):
